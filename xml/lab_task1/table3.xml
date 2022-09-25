@@ -1,0 +1,42 @@
+<products>
+       <product id="1">
+              <id>11</id>
+              <name>John Doe</name>
+              <address>
+                <f></f>
+                <h>H# 38</h>
+                <r> R#3</r> 
+                <m> Banani</m>
+                <dis>Dhaka</dis>
+              </address>
+              <department>Sales</department>
+              <salary>$20000</salary>
+       </product>
+       <product id="2">
+              <id>2</id>
+              <name>Mark Zukerberg</name>
+              <address>
+                <f>Flat# A/1</f>
+                <h>H# 20</h>
+                <r>R#18</r>
+                <m>Mirpur</m>
+                <dis> Dhaka</dis>
+            </address>
+              <department>Account</department>
+              <salary>$12000</salary>
+       </product>
+       <product id="3">
+              <id>3</id>
+              <name>Ala Voski</name>
+             <address>
+             <h>H# 38</h>
+             <r>R#3</r> 
+             <m>Motijheel</m>
+             <dis></dis>
+             </address>
+              <department>Human Resource</department>
+              <salary>$30000</salary>
+       </product>
+
+
+</products>
