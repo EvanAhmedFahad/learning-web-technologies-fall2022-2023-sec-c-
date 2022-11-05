@@ -1,6 +1,5 @@
-<?php
-session_start();
-unset($_SESSION['valid']);
-header('location:Login.php');
-
+<?php 
+    session_start();
+    //setcookie('status', 'true', time()-1, '/');
+    header('location: login.php');
 ?>

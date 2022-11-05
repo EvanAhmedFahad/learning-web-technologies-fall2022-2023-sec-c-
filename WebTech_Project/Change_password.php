@@ -1,3 +1,17 @@
+<?php
+if(isset($_GET['abc'])){
+    echo "Password is empty ";
+}
+if(isset($_GET['abc1'])){
+    echo "Confirm Password is empty ";
+}
+if(isset($_GET['abc2'])){
+    echo " New Password should not be same as the Current Password ";
+}
+if(isset($_GET['abc3'])){
+    echo " New password and confirm password not same ";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +22,7 @@
 </head>
 <body>
 <div  style="background-color:#87CEFA;">
-        <form action="PasswordChange.php" method="post">
+        <form action="Check_forgate_password.php" method="post">
             <fieldset>
                 <legend>Change Password</legend>
                 <table>
@@ -22,7 +36,7 @@
                     </tr>
                     <tr>
                         <td>Confirm Password</td>
-                        <td><input type="password"name="confirpassword" value=""></td>
+                        <td><input type="password"name="confirmpassword" value=""></td>
                     </tr>
                     
                     <tr>
@@ -32,6 +46,7 @@
                 </table>
             </fieldset>
         </form>
+      
     </div>
     
 </body>

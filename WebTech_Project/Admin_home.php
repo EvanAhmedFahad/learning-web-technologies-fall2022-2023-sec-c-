@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 if(!isset ($_SESSION['valid']))
@@ -24,13 +25,13 @@ if(!isset ($_SESSION['valid']))
             <tr>
                 <td>
                     <?php
-                        require 'student_home_logout.php';
+                        require 'admin_home_logout.php';
                     ?>
                 </td>
                 <tr>
                     <td>
                         <?php
-                        require 'student_menu.php';
+                        require 'Admin_menu.php';
                         ?>
                     </td>
                 </tr>
